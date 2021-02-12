@@ -78,3 +78,62 @@ h6 {
 }
 
 /* --------------------------------------------------------------------------------------------------------------------- */
+.content {
+  max-width: 1600px;
+  margin: 0 auto;
+  position: relative;
+}
+.header {
+  height: 95px;
+  position: absolute;
+}
+h1 {
+  display: none;
+}
+.your__life {
+  background-image: url(./assets/bg-image-wrapper.png);
+  height: 744px;
+}
+.header {
+  width: 100%;
+}
+.logo {
+  cursor: pointer;
+  width: 45px;
+  height: 44px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.navigation {
+  max-width: 590px;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+.navigation__ul {
+  display: flex;
+  align-items: center;
+}
+.navigation__ul__li {
+  margin-left: 85px;
+}
+.navigation__ul__li:nth-child(1) {
+  margin-left: 0;
+}
+.navigation__ul__li:nth-child(3) {
+  margin-left: 244px;
+}
+.navigation__ul__li__link {
+  color: #ffffff;
+  opacity: 0.8;
+  height: 20px;
+  box-sizing: border-box;
+  display: block;
+}
+.navigation__ul__li__link:hover {
+  opacity: 1;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: white;
+}
