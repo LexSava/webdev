@@ -78,6 +78,11 @@ h6 {
 }
 
 /* --------------------------------------------------------------------------------------------------------------------- */
+:root {
+  --color_text: #ffffff;
+  --color_button: #00afdb;
+  --color_button_hover: #009cc2;
+}
 .content {
   max-width: 1600px;
   margin: 0 auto;
@@ -125,7 +130,7 @@ h1 {
   margin-left: 244px;
 }
 .navigation__ul__li__link {
-  color: #ffffff;
+  color: var(--color_text);
   opacity: 0.8;
   height: 20px;
   box-sizing: border-box;
@@ -136,4 +141,43 @@ h1 {
   border-bottom-width: 2px;
   border-bottom-style: solid;
   border-bottom-color: white;
+}
+.your__life__heading {
+  color: var(--color_text);
+  font-size: 63px;
+  line-height: 75px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-top: 230px;
+}
+.your__life__text {
+  color: var(--color_text);
+  max-width: 504px;
+  font-size: 18px;
+  line-height: 145%;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.your__life__btn {
+  background-color: var(--color_button);
+  width: 184px;
+  height: 46px;
+  margin: 0 auto;
+  text-transform: uppercase;
+  align-items: center;
+  text-align: center;
+  color: var(--color_text);
+  display: block;
+  margin-top: 28px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  transition: 0.2s linear;
+}
+.your__life__btn:hover {
+  box-shadow: 200px 0 0 0 var(--color_button_hover) inset;
 }
