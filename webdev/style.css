@@ -176,8 +176,24 @@ h1 {
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
+  letter-spacing: -0.5px;
   transition: 0.2s linear;
 }
 .your__life__btn:hover {
   box-shadow: 200px 0 0 0 var(--color_button_hover) inset;
+}
+.your__life__social__networks {
+  width: 170px;
+  margin: 0 auto;
+  margin-top: 183px;
+}
+.your__life__social__networks__ul {
+  display: flex;
+  justify-content: space-between;
+}
+.your__life__social__networks__ul__li__linck__img {
+  transition: 1s;
+}
+.your__life__social__networks__ul__li__linck__img:hover {
+  transform: scale(1.2);
 }
