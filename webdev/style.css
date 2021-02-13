@@ -343,3 +343,37 @@ h1 {
 .implement__block__btn {
   width: 180px;
 }
+.sign__up {
+  height: 524px;
+  background-image: url(./assets/Sign_Up.png);
+}
+.sign__up__heading {
+  color: var(--color_text_light);
+  text-align: center;
+  padding-top: 200px;
+}
+.sign__up__notified__input__block {
+  margin: 0 auto;
+  width: 406px;
+  display: flex;
+  margin-top: 30px;
+  height: 46px;
+}
+.sign__up__notified__email {
+  font-size: 14px;
+  line-height: 140%;
+  color: var(--color_heading_darkness);
+  padding-left: 24px;
+  width: 340px;
+}
+.sign__up__notified__send {
+  width: 66px;
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--color_text_light);
+  background-color: var(--color_button);
+  transition: 0.2s linear;
+}
+.sign__up__notified__send:hover {
+  box-shadow: 200px 0 0 0 var(--color_button_hover) inset;
+}
