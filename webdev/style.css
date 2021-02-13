@@ -76,7 +76,6 @@ h6 {
   font-size: inherit;
   font-weight: inherit;
 }
-
 /* --------------------------------------------------------------------------------------------------------------------- */
 :root {
   --color_text_light: #ffffff;
@@ -95,6 +94,40 @@ h6 {
   -ms-user-select: none;
   user-select: none;
 }
+.heading {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: var(--color_heading_darkness);
+  letter-spacing: -0.2px;
+  text-transform: uppercase;
+}
+.text {
+  color: var(--color_text_darkness);
+  font-size: 14px;
+  line-height: 150%;
+}
+.button {
+  background-color: var(--color_button);
+  width: var(--btn_width);
+  height: var(--btn_height);
+  margin: 0 auto;
+  text-transform: uppercase;
+  align-items: center;
+  text-align: center;
+  color: var(--color_text_light);
+  display: block;
+  margin-top: 28px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: -0.5px;
+  transition: 0.2s linear;
+}
+.button:hover {
+  box-shadow: 200px 0 0 0 var(--color_button_hover) inset;
+}
+/* --------------------------------------------------------------------------------------------------------------------- */
 .content {
   max-width: 1600px;
   margin: 0 auto;
@@ -103,6 +136,7 @@ h6 {
 .header {
   height: 95px;
   position: absolute;
+  width: 100%;
 }
 h1 {
   display: none;
@@ -110,9 +144,6 @@ h1 {
 .your__life {
   background-image: url(./assets/bg-image-wrapper.png);
   height: 744px;
-}
-.header {
-  width: 100%;
 }
 .logo {
   cursor: pointer;
@@ -174,26 +205,6 @@ h1 {
   margin: 0 auto;
   margin-top: 20px;
 }
-.button {
-  background-color: var(--color_button);
-  width: var(--btn_width);
-  height: var(--btn_height);
-  margin: 0 auto;
-  text-transform: uppercase;
-  align-items: center;
-  text-align: center;
-  color: var(--color_text_light);
-  display: block;
-  margin-top: 28px;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: -0.5px;
-  transition: 0.2s linear;
-}
-.button:hover {
-  box-shadow: 200px 0 0 0 var(--color_button_hover) inset;
-}
 .your__life__social__networks {
   width: 170px;
   margin: 0 auto;
@@ -220,18 +231,9 @@ h1 {
   margin-top: 295px;
 }
 .rappresent__block__heading {
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 28px;
-  color: var(--color_heading_darkness);
-  letter-spacing: -0.2px;
-  text-transform: uppercase;
   width: 367px;
 }
 .rappresent__block__text {
-  color: var(--color_text_darkness);
-  font-size: 14px;
-  line-height: 150%;
   margin-top: 20px;
 }
 .rappresent__block__btn {
@@ -269,9 +271,6 @@ h1 {
   margin-top: 20px;
 }
 .our__community__hacker__text {
-  color: var(--color_text_darkness);
-  font-size: 14px;
-  line-height: 150%;
   text-align: center;
   margin-top: 10px;
 }
@@ -314,4 +313,33 @@ h1 {
 }
 .our__community__slider__slidу:nth-child(1) {
   margin-left: 0;
+}
+.implement {
+  height: 842px;
+  display: flex;
+}
+.implement__img {
+  margin-top: 120px;
+  margin-left: 268px;
+  width: 407px;
+  height: 582px;
+  background-image: url(./assets/implement.png);
+}
+.implement__block {
+  width: 407px;
+  margin-top: 319px;
+  margin-left: 139px;
+}
+.implement__block__heading {
+  letter-spacing: 0.2px;
+}
+.implement__block__text {
+  margin-top: 20px;
+  letter-spacing: -0.2px;
+}
+.implement__block__btn {
+  margin-left: 0;
+}
+.implement__block__btn {
+  width: 180px;
 }
