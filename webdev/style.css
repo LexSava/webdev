@@ -79,9 +79,13 @@ h6 {
 
 /* --------------------------------------------------------------------------------------------------------------------- */
 :root {
-  --color_text: #ffffff;
+  --color_text_light: #ffffff;
+  --color_text_darkness: #4e4e4e;
+  --color_heading_darkness: #373737;
   --color_button: #00afdb;
   --color_button_hover: #009cc2;
+  --btn_width: 184px;
+  --btn_height: 46px;
 }
 .content {
   max-width: 1600px;
@@ -130,7 +134,7 @@ h1 {
   margin-left: 244px;
 }
 .navigation__ul__li__link {
-  color: var(--color_text);
+  color: var(--color_text_light);
   opacity: 0.8;
   height: 20px;
   box-sizing: border-box;
@@ -143,7 +147,7 @@ h1 {
   border-bottom-color: white;
 }
 .your__life__heading {
-  color: var(--color_text);
+  color: var(--color_text_light);
   font-size: 63px;
   line-height: 75px;
   align-items: center;
@@ -154,7 +158,7 @@ h1 {
   padding-top: 230px;
 }
 .your__life__text {
-  color: var(--color_text);
+  color: var(--color_text_light);
   max-width: 504px;
   font-size: 18px;
   line-height: 145%;
@@ -162,15 +166,15 @@ h1 {
   margin: 0 auto;
   margin-top: 20px;
 }
-.your__life__btn {
+.button {
   background-color: var(--color_button);
-  width: 184px;
-  height: 46px;
+  width: var(--btn_width);
+  height: var(--btn_height);
   margin: 0 auto;
   text-transform: uppercase;
   align-items: center;
   text-align: center;
-  color: var(--color_text);
+  color: var(--color_text_light);
   display: block;
   margin-top: 28px;
   font-weight: bold;
@@ -179,7 +183,7 @@ h1 {
   letter-spacing: -0.5px;
   transition: 0.2s linear;
 }
-.your__life__btn:hover {
+.button:hover {
   box-shadow: 200px 0 0 0 var(--color_button_hover) inset;
 }
 .your__life__social__networks {
@@ -196,4 +200,38 @@ h1 {
 }
 .your__life__social__networks__ul__li__linck__img:hover {
   transform: scale(1.2);
+}
+.rappresent {
+  height: 842px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 269px;
+}
+.rappresent__block {
+  width: 408px;
+  margin-top: 295px;
+}
+.rappresent__block__heading {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: var(--color_heading_darkness);
+  letter-spacing: -0.2px;
+  text-transform: uppercase;
+  width: 367px;
+}
+.rappresent__block__text {
+  color: var(--color_text_darkness);
+  font-size: 14px;
+  line-height: 150%;
+  margin-top: 20px;
+}
+.rappresent__block__btn {
+  margin-left: 0;
+}
+.rappresent__img {
+  width: 407px;
+  height: 582px;
+  margin-top: 120px;
+  background-image: url(./assets/rappresent_image.png);
 }
