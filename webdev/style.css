@@ -129,7 +129,7 @@ h6 {
 }
 /* --------------------------------------------------------------------------------------------------------------------- */
 .content {
-  max-width: 1600px;
+  width: 1600px;
   margin: 0 auto;
   position: relative;
 }
@@ -299,7 +299,7 @@ h1 {
   cursor: pointer;
 }
 .our__community__slider__interface__elem {
-  font-size: 18px;
+  font-size: 14px;
   padding-top: 3px;
   cursor: default;
 }
@@ -413,4 +413,49 @@ h1 {
 }
 .download__block__btn__img {
   text-align: right;
+}
+.footer {
+  height: 185px;
+  background-color: #000000;
+}
+.footer__block__content {
+  display: flex;
+  padding: 0 160px;
+  align-items: center;
+  padding-top: 60px;
+}
+.footer__navigation__ul {
+  display: flex;
+}
+.footer__navigation__ul__li {
+  color: #4e4e4e;
+  margin-left: 20px;
+  font-size: 14px;
+  align-items: center;
+  cursor: default;
+}
+.footer__navigation__ul__li:nth-child(1) {
+  margin-left: 0;
+}
+.footer__navigation__ul__li__link {
+  color: var(--color_text_light);
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 140%;
+}
+.footer__navigation__ul__li__border {
+  font-size: 8px;
+  padding-top: 6px;
+}
+.footer__logo {
+  cursor: pointer;
+  width: 45px;
+  height: 44px;
+  margin-left: 382px;
+}
+.footer__text {
+  font-size: 14px;
+  line-height: 140%;
+  color: #818181;
+  margin-left: 440px;
 }
